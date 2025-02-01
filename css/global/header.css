@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--cor-0);
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  gap: 40px;
+  letter-spacing: 0.1em;
+}
+
+.container-mark {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btt-header {
+  background-color: var(--cor-2);
+  padding: 10px 20px;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.btt-header:hover {
+  background-color: #1154ff;
+}
+
+@media (max-width: 768px) {
+}

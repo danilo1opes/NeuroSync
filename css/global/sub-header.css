@@ -1,0 +1,14 @@
+.sub-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cor-6);
+  color: var(--cor-0);
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .sub-header {
+    display: none;
+  }
+}
