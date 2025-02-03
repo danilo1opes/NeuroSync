@@ -5,6 +5,9 @@
 @import './global/sub-header.css';
 @import './global/header.css';
 
+/* Main */
+@import './main/introduction.css';
+
 /* Utilities */
 @import './utilities/color.css';
 @import './utilities/typography.css';
