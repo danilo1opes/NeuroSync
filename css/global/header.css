@@ -97,3 +97,9 @@
     display: block;
   }
 }
+
+@media (max-width: 375px) {
+  .btt-header {
+    left: 38%;
+  }
+}

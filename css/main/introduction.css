@@ -23,7 +23,6 @@
   gap: 10px;
   border: none;
   background-color: var(--cor-2);
-  color: var(--cor-0);
   border-radius: 5px;
   padding: 10px 25px;
   cursor: pointer;
@@ -32,11 +31,107 @@
 .content-links a {
   display: flex;
   justify-content: center;
-  color: black;
   gap: 10px;
   align-items: center;
 }
 
 .icon-a {
   width: 25px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .brain-logo img {
+    width: 70px;
+  }
+  .introduction h1 {
+    font-size: 3rem;
+  }
+  .introduction p {
+    font-size: 1rem;
+  }
+  .content-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .content-links a {
+    font-size: 1.3rem;
+  }
+  .icon-a {
+    width: 25px;
+  }
+  .flex-btt img {
+    width: 25px;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .brain-logo img {
+    width: 50px;
+  }
+  .introduction h1 {
+    font-size: 2rem;
+  }
+  .introduction p {
+    font-size: 0.675rem;
+  }
+  .content-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .content-links a {
+    font-size: 1rem;
+  }
+  .icon-a {
+    width: 15px;
+  }
+  .flex-btt {
+    font-size: 1.2rem;
+  }
+  .flex-btt img {
+    width: 15px;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .introduction {
+    margin-top: 40px;
+  }
+  .brain-logo img {
+    width: 35px;
+  }
+  .introduction h1 {
+    font-size: 1.5rem;
+  }
+  .introduction p {
+    font-size: 0.575rem;
+  }
+  .content-links {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+  }
+  .content-links a {
+    font-size: 0.675rem;
+  }
+  .icon-a {
+    width: 10px;
+  }
+  .flex-btt {
+    font-size: 1.2rem;
+  }
+  .flex-btt img {
+    width: 10px;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
 }

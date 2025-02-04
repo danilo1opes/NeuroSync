@@ -7,6 +7,7 @@
 
 /* Main */
 @import './main/introduction.css';
+@import './main/image-back.css';
 
 /* Utilities */
 @import './utilities/color.css';
