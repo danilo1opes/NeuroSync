@@ -8,6 +8,8 @@
 /* Main */
 @import './main/introduction.css';
 @import './main/image-back.css';
+@import './main/text-bottom.css';
+@import './main/cards.css';
 
 /* Utilities */
 @import './utilities/color.css';
