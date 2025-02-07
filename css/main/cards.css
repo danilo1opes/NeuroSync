@@ -9,7 +9,7 @@
   align-items: start;
   gap: 10px;
 }
-  
+
 .cards h1 {
   font-size: 1.4rem;
 }
@@ -17,4 +17,22 @@
 .cards p {
   font-size: 0.775rem;
   margin-top: 0.275rem;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .container-cards {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-cards {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 375px) {
+  .container-cards {
+    flex-direction: column;
+  }
 }
